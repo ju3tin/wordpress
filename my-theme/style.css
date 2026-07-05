@@ -1,0 +1,71 @@
+/*
+Theme Name: My Custom Theme
+Theme URI: https://example.com/my-theme
+Author: Grok
+Author URI: https://x.ai
+Description: A simple starter WordPress theme created by Grok.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: my-theme
+Tags: custom, responsive
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Layout */
+.content-area {
+    float: left;
+    width: 70%;
+    padding-right: 30px;
+}
+
+#secondary {
+    float: right;
+    width: 25%;
+}
+
+.widget {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .content-area, #secondary {
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+}
